@@ -2,14 +2,30 @@
   "artist": {
     "name": "Minus",
     "tagline": "one Step for you to get your art",
-    "description_pt": "> Hello World! Eu sou StepMinus, Artista digital 2D focado em animais antropomorfizados. Estamos conectados?",
-    "description_en": "> Hello World! I am StepMinus, a 2D digital artist focused on anthropomorphic animals. Are we connected?"
+    "description_pt": "> Hello World! Eu sou o artista digital 2D. Estamos conectados?",
+    "description_en": "> Hello World! I am a 2D digital artist. Are we connected?"
   },
   "social": [
-    { "id": "x", "href": "https://x.com", "title": "X / Twitter" },
-    { "id": "instagram", "href": "https://instagram.com", "title": "Instagram" },
-    { "id": "discord", "href": "https://discord.com", "title": "Discord" },
-    { "id": "telegram", "href": "https://telegram.org", "title": "Telegram" }
+    {
+      "id": "x",
+      "href": "https://x.com",
+      "title": "X / Twitter"
+    },
+    {
+      "id": "instagram",
+      "href": "https://instagram.com",
+      "title": "Instagram"
+    },
+    {
+      "id": "discord",
+      "href": "https://discord.com",
+      "title": "Discord"
+    },
+    {
+      "id": "telegram",
+      "href": "https://telegram.org",
+      "title": "Telegram"
+    }
   ],
   "commissions": {
     "status": "open",
@@ -17,7 +33,7 @@
     "statusLabel_en": "COMMISSIONS: OPEN"
   },
   "stats": {
-    "projects": 142,
+    "projects": 3,
     "retention": 98,
     "pixels": 43
   },
