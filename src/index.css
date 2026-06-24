@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-almond: #dfc8b6;
+  --color-rosy: #c77b73;
+  --color-brick: #a13d33;
+  --color-tomato: #f05341;
+  
+  --color-bg-dark: #120c0b;
+  --color-surface: #1c1412;
+  --color-surface-hover: #2a1e1b;
+  
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  --font-sans: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: var(--color-almond);
+  font-family: var(--font-sans);
+  background-image: 
+    linear-gradient(var(--color-surface) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-surface) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-attachment: fixed;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0) }
+  20% { transform: translate(-1.5px, 1.5px); text-shadow: -1px 0 #00f0ff, 1px 0 #ff003c; }
+  40% { transform: translate(-1.5px, -1.5px); text-shadow: 1px 0 #00f0ff, -1px 0 #ff003c; }
+  60% { transform: translate(1.5px, 1.5px); text-shadow: -1px 0 #ff003c, 1px 0 #00f0ff; }
+  80% { transform: translate(1.5px, -1.5px); text-shadow: 1px 0 #ff003c, -1px 0 #00f0ff; }
+  100% { transform: translate(0) }
+}
+
+.cyber-glitch {
+  animation: glitch 1.5s steps(2) infinite;
+}
+
+@keyframes spin-vinyl {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spin-active {
+  animation: spin-vinyl 2s linear infinite;
+}
+
+.cyberpunk-grid {
+  background-size: 30px 30px;
+  background-image: 
+    linear-gradient(to right, rgba(240, 83, 65, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(240, 83, 65, 0.04) 1px, transparent 1px);
+}
+
+body.light-theme {
+  --color-almond: #222222;
+  --color-rosy: #777777;
+  --color-brick: #444444;
+  --color-tomato: #cc0000;
+  --color-bg-dark: #f5f5f5;
+  --color-surface: #ffffff;
+  --color-surface-hover: #e0e0e0;
+}
+
+@keyframes scanline {
+  0% { top: -10% }
+  100% { top: 110% }
+}
+
+.scanline-effect {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: var(--color-tomato);
+  opacity: 0.3;
+  animation: scanline 2s linear infinite;
+}
+
+::selection {
+  background-color: var(--color-tomato);
+  color: var(--color-bg-dark);
+}
+
+/* Custom scrollbar for tech vibe */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brick);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-tomato);
+}
+
+@media (pointer: fine) {
+  body, a, button, [data-interactive="true"], input, textarea {
+    cursor: none !important;
+  }
+}

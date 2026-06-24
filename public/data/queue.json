@@ -1,0 +1,7 @@
+{
+  "items": [
+    { "id": "REQ_A73", "client": "LUCAS_M.", "type": "FULL_BODY_RENDER", "progress": 80, "status": "FINAL_POLISH", "stage_pt": "Renderizacao Completa", "stage_en": "Full Render" },
+    { "id": "REQ_B12", "client": "ANA_K.", "type": "TWITCH_EMOTES", "progress": 45, "status": "FLAT_COLORS", "stage_pt": "Cores Base", "stage_en": "Base Colors" },
+    { "id": "REQ_C04", "client": "NINJA_XX", "type": "CHARACTER_CONCEPT", "progress": 15, "status": "SKETCHING", "stage_pt": "Esboq Inicial", "stage_en": "Initial Sketch" }
+  ]
+}
