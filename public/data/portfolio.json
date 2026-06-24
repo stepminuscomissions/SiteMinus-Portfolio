@@ -1,24 +1,6 @@
 {
   "items": [
     {
-      "id": "SYS_06",
-      "title": "COMMISSION_089.png",
-      "tags": [
-        "half-body",
-        "commission"
-      ],
-      "image": "https://images.unsplash.com/photo-1549692520-acc6669e2f0c?w=800&q=80"
-    },
-    {
-      "id": "SYS_07",
-      "title": "HACKER_BASE.psd",
-      "tags": [
-        "enviro",
-        "cyber"
-      ],
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80"
-    },
-    {
       "id": "SYS_08",
       "title": "SYNTH_SKULL.png",
       "tags": [
