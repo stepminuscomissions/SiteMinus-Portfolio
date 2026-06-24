@@ -4,43 +4,63 @@
       "id": "TIER_A",
       "name_pt": "ICONE / PORTRAIT",
       "name_en": "ICON / PORTRAIT",
-      "price_pt": "R$ 30",
+      "price_pt": "R$ 80",
       "price_en": "$ 15",
-      "details_pt": ["1 Personagem", "Cores Base ou Render", "Fundo Simples/Transparente"],
-      "details_en": ["1 Character", "Base Colors or Render", "Simple/Transparent Background"]
+      "details_pt": [
+        "1 Personagem",
+        "Cores Base ou Render",
+        "Fundo Simples/Transparente"
+      ],
+      "details_en": [
+        "1 Character",
+        "Base Colors or Render",
+        "Simple/Transparent Background"
+      ]
     },
     {
       "id": "TIER_B",
-      "name_pt": "MEIO CORPO (HALF-BODY)",
+      "name_pt": "MEIO CORPO",
       "name_en": "HALF-BODY",
-      "price_pt": "R$ 55",
-      "price_en": "$ 35",
-      "details_pt": ["1 Personagem (ate a cintura)", "Render Completo"],
-      "details_en": ["1 Character (waist up)", "Full Render"]
+      "price_pt": "R$ 150",
+      "price_en": "$ 28",
+      "details_pt": [
+        "1 Personagem (ate a cintura)",
+        "Render Completo"
+      ],
+      "details_en": [
+        "1 Character (waist up)",
+        "Full Render"
+      ]
     },
     {
       "id": "TIER_C",
-      "name_pt": "CORPO INTEIRO (FULL-BODY)",
+      "name_pt": "CORPO INTEIRO",
       "name_en": "FULL-BODY",
-      "price_pt": "R$ 70",
-      "price_en": "$ 55",
-      "details_pt": ["1 Personagem Completo", "Design de Roupas"],
-      "details_en": ["1 Full Character", "Outfit Design"]
+      "price_pt": "R$ 250",
+      "price_en": "$ 46",
+      "details_pt": [
+        "1 Personagem Completo",
+        "Design de Roupas"
+      ],
+      "details_en": [
+        "1 Full Character",
+        "Outfit Design"
+      ]
     },
     {
       "id": "TIER_D",
       "name_pt": "REF SHEET",
       "name_en": "REF SHEET",
-      "price_pt": "R$ 100",
-      "price_en": "$ 85",
-      "price_medium_pt": "R$ 135",
-      "price_medium_en": "$ 100",
-      "price_advanced_pt": "R$ 165",
-      "price_advanced_en": "$ 120",
-      "price_complex_pt": "R$ 215",
-      "price_complex_en": "$ 140",
-      "details_pt": ["Design Frontal + Detalhes", "Paleta de Cores"],
-      "details_en": ["Front Design + Details", "Color Palette"],
+      "price_pt": "R$ 300",
+      "price_en": "$ 55",
+      "details_pt": [
+        "Design Frontal + Detalhes",
+        "Paleta de Cores"
+      ],
+      "details_en": [
+        "Front Design + Details",
+        "Color Palette"
+      ],
       "hasCheckboxes": true
     }
   ],
