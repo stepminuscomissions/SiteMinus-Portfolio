@@ -1,13 +1,31 @@
 {
   "items": [
-    { "id": "SYS_01", "title": "CYBER_PUNK_GIRL.png", "tags": ["render", "cyber"], "image": "https://images.unsplash.com/photo-1620336655055-088d06e36bf0?w=800&q=80" },
-    { "id": "SYS_02", "title": "MECHA_DESIGN_04.psd", "tags": ["concept", "mecha"], "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80" },
-    { "id": "SYS_03", "title": "NEON_DISTRICT.es", "tags": ["bg", "enviro"], "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80" },
-    { "id": "SYS_04", "title": "VAPOR_WAVE_PORTRAIT.png", "tags": ["portrait", "retro"], "image": "https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?w=800&q=80" },
-    { "id": "SYS_05", "title": "CHARACTER_SHEET_Z.pdf", "tags": ["char-design", "lineart"], "image": "https://images.unsplash.com/photo-1580136608260-4eb11f4b24fe?w=800&q=80" },
-    { "id": "SYS_06", "title": "COMMISSION_089.png", "tags": ["half-body", "commission"], "image": "https://images.unsplash.com/photo-1549692520-acc6669e2f0c?w=800&q=80" },
-    { "id": "SYS_07", "title": "HACKER_BASE.psd", "tags": ["enviro", "cyber"], "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80" },
-    { "id": "SYS_08", "title": "SYNTH_SKULL.png", "tags": ["dark", "render"], "image": "https://images.unsplash.com/photo-1614030126544-b79b92e29e98?w=800&q=80" },
-    { "id": "SYS_09", "title": "ANDROID_PROTO.pdf", "tags": ["concept", "lineart"], "image": "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?w=800&q=80" }
+    {
+      "id": "SYS_06",
+      "title": "COMMISSION_089.png",
+      "tags": [
+        "half-body",
+        "commission"
+      ],
+      "image": "https://images.unsplash.com/photo-1549692520-acc6669e2f0c?w=800&q=80"
+    },
+    {
+      "id": "SYS_07",
+      "title": "HACKER_BASE.psd",
+      "tags": [
+        "enviro",
+        "cyber"
+      ],
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80"
+    },
+    {
+      "id": "SYS_08",
+      "title": "SYNTH_SKULL.png",
+      "tags": [
+        "dark",
+        "render"
+      ],
+      "image": "https://images.unsplash.com/photo-1614030126544-b79b92e29e98?w=800&q=80"
+    }
   ]
 }
