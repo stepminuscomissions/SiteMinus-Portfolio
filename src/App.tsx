@@ -1,10 +1,10 @@
+/// <reference types="vite/client" />
 import { motion, AnimatePresence, useMotionValue, useInView } from 'motion/react';
 import { 
   Terminal, 
   Cpu, 
   Send, 
   ExternalLink,
-  Code2,
   Palette,
   AlertTriangle,
   Sun,
@@ -136,8 +136,6 @@ const playOpenSound = () => {
 
 const PORTFOLIO_DEFAULT: PortfolioItem[] = [];
 
-const getQueueDefault = (lang: Lang): QueueItem[] => [];
-
 const DEFAULT_CONFIG: SiteConfig = {
   artist: { name: 'Minus', tagline: 'one Step for you to get your art', description_pt: '> Hello World!', description_en: '> Hello World!' },
   social: socialLinks_DEFAULT,
@@ -147,8 +145,6 @@ const DEFAULT_CONFIG: SiteConfig = {
 };
 
 const DEFAULT_PRICING: PricingData = { tiers: [], extras_pt: [], extras_en: [] };
-
-const ALL_TAGS_DEFAULT = Array.from(new Set(PORTFOLIO_DEFAULT.flatMap(i => i.tags))).sort();
 
 const AnimatedCounter = ({ value, duration = 2 }: { value: number; duration?: number }) => {
   const ref = useRef<HTMLSpanElement>(null);
@@ -549,21 +545,6 @@ export default function App() {
   const filteredItems = activeFilter 
     ? portfolioItems.filter(item => item.tags.includes(activeFilter))
     : portfolioItems;
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.1 }
-    }
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 120 } }
-  };
-
-
 
   return (
     <div className="min-h-screen text-almond selection:bg-tomato selection:text-bg-dark font-sans pb-24">
@@ -978,7 +959,6 @@ export default function App() {
                   <div key={tier.id} className="border border-dashed border-rosy/40 hover:border-tomato bg-surface p-6 transition-colors flex flex-col h-full relative group">
                     <div className="absolute inset-0 bg-rosy/5 opacity-0 group-hover:opacity-100 transition-opacity" />
                     
-                    <div className="text-rosy mb-4">{tier.icon}</div>
                     <div className="text-xs text-almond/50 mb-1">[{tier.id}]</div>
                     <h3 className="text-lg font-bold text-tomato mb-2 border-b border-dashed border-rosy/20 pb-2">
                       {tier.name}
