@@ -2,10 +2,10 @@
   "items": [
     {
       "id": "Thenkey",
-      "client": "NOVO CLIENTE",
+      "client": "thenkey",
       "type": "SKETCH",
-      "progress": 10,
-      "status": "QUEUED",
+      "progress": 50,
+      "status": "IN_PROGRESS",
       "stage_pt": "Não Iniciado",
       "stage_en": "Não Iniciado"
     }
