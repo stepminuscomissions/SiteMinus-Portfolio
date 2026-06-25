@@ -1,11 +1,11 @@
 {
   "items": [
     {
-      "id": "REQ_T6C",
-      "client": "NOVO CLIENTE",
+      "id": "THENKEY",
+      "client": "THENKEY",
       "type": "SKETCH",
-      "progress": 10,
-      "status": "QUEUED",
+      "progress": 50,
+      "status": "IN_PROGRESS",
       "stage_pt": "Não Iniciado",
       "stage_en": "Não Iniciado"
     }
