@@ -1,22 +1,3 @@
 {
-  "items": [
-    {
-      "id": "Thenkey",
-      "client": "thenkey",
-      "type": "tipo arte thenkey",
-      "progress": 50,
-      "status": "IN_PROGRESS",
-      "stage_pt": "Não Iniciado",
-      "stage_en": "Não Iniciado"
-    },
-    {
-      "id": "REQ_MA2",
-      "client": "NOVO CLIENTE",
-      "type": "SKETCH",
-      "progress": 10,
-      "status": "QUEUED",
-      "stage_pt": "Não Iniciado",
-      "stage_en": "Não Iniciado"
-    }
-  ]
+  "items": []
 }
