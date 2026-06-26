@@ -1,13 +1,3 @@
 {
-  "items": [
-    {
-      "id": "THENKEY",
-      "client": "THENKEY",
-      "type": "SKETCH",
-      "progress": 50,
-      "status": "IN_PROGRESS",
-      "stage_pt": "Não Iniciado",
-      "stage_en": "Não Iniciado"
-    }
-  ]
+  "items": []
 }
